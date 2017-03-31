@@ -1,6 +1,6 @@
 import time
 Max_speed = 30
-Min_time =2
+Min_time = 0.02
 input("Press any button to start")
 Camera_A = time.time()
 input("Press any button to stop")
