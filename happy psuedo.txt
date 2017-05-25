@@ -1,0 +1,13 @@
+function Happynumbers(num)
+    unhappy_list = set()
+    while num != 1:
+		num = sum(int(i)^2 for i in str(n))
+		if num is in unhappy_list:
+			return false
+		endif
+		unhappy_list.add(num)
+		return true
+	endwhile
+end function
+
+num = int(input(“What number would you like to test:”))
